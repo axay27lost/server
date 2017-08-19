@@ -7,7 +7,9 @@ module.exports={
     mongoURL:process.env.MONGO_URL,
     cookieKey:process.env.COOKIE_KEY,
     stripePublishableKey:process.env.STRIPE_PUBLISHABLE_KEY,
-    stripeSecretKey:process.env.STRIPE_SECREAT_KEY
+    stripeSecretKey:process.env.STRIPE_SECREAT_KEY,
+    sendGridKey:process.env.SEND_GRID_KEY,
+    redirectDomain:process.env.REDIRECT_DOMAIN
 };
 
 
